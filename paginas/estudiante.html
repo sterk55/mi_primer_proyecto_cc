@@ -5,11 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/misprimerosestilos.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
     <title>Nuevo Estudiante</title>
+    <style>
+        .botonesNuevos{
+            color: yellow;
+            background-color: black;
+        }
+
+        h1{
+            color: brown;
+        }
+    </style>
 </head>
 
 <body>
     <form action="">
+        <h1>Estilo por Elemento</h1>
+        <p>Texto de prueba de una URL</p>
         <table>
             <tr>
                 <td><label for="idNombre">Nombre:</label></td>
@@ -37,14 +52,18 @@
                 <td><input type="password" id="idClave"></td>
 
             </tr>
-            <img src="../imagenes/1.jpg" alt="Texto alternativo">
+            <img src="../imagenes/1.jpg" height="300" width="500" alt="Texto alternativo">
         </table>
         <table>
             <tr>
-                <td><button>Guardar</button></td>
+                <td><button >Guardar</button></td>
+                <td><button style="color: rgb(143, 229, 176); background-color: black;">Guardar con estilo en linea</button></td>
+                <td><button class="botonesNuevos">Guardar con estilo interno</button></td>
                 <td></td><input type="file" name="" id=""></td>
+                <td><button class="botonesViejos">Guardar con estilo externo</button></td>
                 <td><button>Actualizar</button></td>
-                <td><button>Eliminar</button></td>
+                <td><button id="idBoton2022">Guardar con ID externo</button></td>
+                <td><button class="botonesNuevos">Eliminar</button></td>
             </tr>
         </table>
 
