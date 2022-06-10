@@ -10,9 +10,13 @@
 </head>
 <body>
     <h2>Enciende o apaga la luz</h2>
-    <img id="idFoco" src="../imagenes/apagado.png" alt="No hay foco">
+    <img id="idFocoApagado" src="../imagenes/apagado.png" alt="No hay foco" style="display:block">
+    <img id = "idFocoEncendido" src="../imagenes/encendido.png" alt="No hay foco" style="display:none">
     <button type="button" onclick="encender()">Encender</button>
     <button type="button" onclick="apagar()">Apagarr</button>
+    
+    <button type="button" id="idBoton" onclick="encenderApagar()">Encender</button>
+
 
 </body>
 </html>
