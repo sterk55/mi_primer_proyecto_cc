@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+}
+
+label {
+
+    display: block;
+
+}
+
+input:hover,
+select:hover {
+    background-color: cornflowerblue;
+}
+
+input:focus,
+select:focus {
+    background-color: darkgreen;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1em;
+    /* 1 em = 16px */
+    text-transform: uppercase;
+}
+
+#idBotonP {
+
+    text-align: center;
+}
+
+.enLinea{
+    display: inline;
+}
+
+fieldset{
+    margin: 2em;
+}
+
