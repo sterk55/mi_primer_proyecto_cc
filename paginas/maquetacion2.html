@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/maquetacion2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de Registro</h1>
+    </header>
+    <form action="">
+        <fieldset>
+            <legend>Nombre y Apellidos</legend>
+            <table  class="tablal">
+                <tr>
+                    <td>
+                <input type="text" id="idNombre" />
+                <label for="idNombre" class="bloque">Nombre</label>
+            </td>
+        </tr>
+        <tr>
+                    <td>
+                <input type="text" id="idApellido" />
+                <label for="idApellido" class="bloque">Primer Apellido</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="idApellido2" />
+                <label for="idApellido2" class="bloque">Segundo Apellido</label>
+            </td>
+        </tr>
+
+            </table>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Direccion</legend>
+            <div id="idDiv">
+            <table class="tablal">
+                <tr>
+                    <td>
+                    <input type="text" id="idCalle" />
+                    <label for="idCalle" class="bloque">Calle, numero, piso, puerta</label>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="idCiudad" />
+
+                        <label for="idCiudad" class="bloque">Ciudad</label>
+                    </td>
+
+                    <td>
+                        <input type="text" id="idCodigo" class="bloque" />
+                        <label for="idCodigo">Codigo Postal</label>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <select name="provincia" id="idProvincia">
+                            <option value="M">Manabi</option>
+                            <option value="P">Pichincha</option>
+                            <option value="A">Azuay</option>
+
+                        </select>
+                        <label for="idProvincia" class="bloque">Provincia</label>
+
+                    </td>
+                    <td>
+                        <select name="pais" class="enLinea" id="idPais">
+                            <option value="E">Ecuador</option>
+                            <option value="P">Peru</option>
+                            <option value="A">Argentina</option>
+
+                        </select>
+                        <label for="idPais" class="bloque">Pais</label>
+
+
+                    </td>
+
+                </tr>
+
+
+
+            </table>
+
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <p id="idBotonlP">
+            <input type="text">
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend>Telefono</legend>
+
+            <table class="tablal">
+                <tr>
+                    <td>
+                        <input type="text" id="idMovil"  />
+                        <label for="idMovil" class="bloque">Telefono Movil</label>
+                    </td>
+                    <td>
+                        <input type="text" id="idFijo" class="bloque" />
+                        <label for="idFijo" class="bloque">Telefono Fijo</label>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+    </fieldset>
+    <p id="idBotonP">
+        <button>Registrarse</button>
+    
+    </p>
+
+    </form>
+</body>
+
+</html>
